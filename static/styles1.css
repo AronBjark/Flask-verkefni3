@@ -1,0 +1,10 @@
+* {box-sizing: border-box }
+.textinn {
+	text-align: center;
+}
+.container{
+	max-width: 60em; /*960px = fartölvur*/
+    margin: 0 auto; /* top+bottom og left+right*/
+    padding: 0;
+    text-align: center;
+}

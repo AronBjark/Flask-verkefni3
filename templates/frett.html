@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/styles1.css') }}">
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<h1>{{ frett[1] }}</h1>
+	</div>
+	{% for i in frettir %}
+	<h2>123<a href="/frett/"></a></h2>
+	<h2>{{ frett[2] }}</h2><img src="/static/cow1.jpg">
+	<h4>{{ frett[3] }}</h4>
+	{% endfor %}
+</body>
+</html>

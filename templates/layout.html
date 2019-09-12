@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles1.css') }}">
+		<title class="textinn">Flask Template</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Fréttasíða</h1>
+		</div>
+		<div>
+		{% for i in frettir %}
+			<h3><a href="/frett/{{ i[0] }}"> {{ i[1] }} </a></h3>
+			<h4>{{ frett[3] }}</h4>
+		{% endfor %}
+		</div>
+	</body>
+</html>
