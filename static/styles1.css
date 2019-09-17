@@ -8,3 +8,6 @@
     padding: 0;
     text-align: center;
 }
+.litur {
+    background-image: linear-gradient(to top, lightgray,  white);
+}

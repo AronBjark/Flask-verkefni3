@@ -8,10 +8,9 @@
 		<div class="container">
 			<h1>Fréttasíða</h1>
 		</div>
-		<div>
-		{% for i in frettir %}
+		<div class="litur">
+		{% for i in frett %}
 			<h3><a href="/frett/{{ i[0] }}"> {{ i[1] }} </a></h3>
-			<h4>{{ frett[3] }}</h4>
 		{% endfor %}
 		</div>
 	</body>

@@ -13,7 +13,7 @@ def index():
 
 @app.route('/frett/<int:nr>')
 def sida1(nr):
-    return render_template("frett.html", frettir=names[nr])
+    return render_template("frett.html", frett=names[nr])
 
 if __name__ == "__main__":
 	app.run(debug=True)
