@@ -1,13 +1,20 @@
 * {box-sizing: border-box }
+
 .textinn {
 	text-align: center;
 }
+
 .container{
 	max-width: 60em; /*960px = fartölvur*/
     margin: 0 auto; /* top+bottom og left+right*/
     padding: 0;
     text-align: center;
 }
+
 .litur {
-    background-image: linear-gradient(to top, lightgray,  white);
+    background: lime;
+}
+
+body {
+    background: silver;
 }
